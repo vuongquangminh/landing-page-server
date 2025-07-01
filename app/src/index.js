@@ -7,7 +7,7 @@ const port = 8080;
 // Allow requests from your Next.js frontend
 app.use(
   cors({
-    origin: "http://localhost:3000", // or your actual frontend domain
+    origin: "http://localhost:3000", 
     credentials: true, // if you use cookies/auth
   })
 );
